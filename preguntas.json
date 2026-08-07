@@ -1,0 +1,218 @@
+{
+  "Jubilación": {
+    "color": "#FF6B6B",
+    "preguntas": [
+      {
+        "pregunta": "Se exigen al menos 20 años de aportes para la pensión general de la ONP",
+        "opciones": ["Verdadero", "Falso"],
+        "respuesta": "Verdadero"
+      },
+      {
+        "pregunta": "¿Cuál es la edad legal para jubilarse en el SNP y en el SPP?",
+        "opciones": ["60 años", "65 años", "70 años"],
+        "respuesta": "65 años"
+      },
+      {
+        "pregunta": "¿Cómo se llama la pensión que permite jubilarse con 10 años de aportes?",
+        "opciones": [
+          "Pensión por viudez",
+          "Pensión de jubilación adelantada",
+          "Pensión proporcional"
+        ],
+        "respuesta": "Pensión proporcional"
+      }
+    ]
+  },
+  "Aportes y constancia": {
+    "color": "#FF9F1C",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué porcentaje de tu sueldo se retiene para el aporte a la ONP?",
+        "opciones": ["10%", "13%", "15%"],
+        "respuesta": "13%"
+      },
+      {
+        "pregunta": "El trabajador dependiente debe ir al banco a depositar su aporte a la ONP",
+        "opciones": ["Verdadero", "Falso"],
+        "respuesta": "Falso"
+      },
+      {
+        "pregunta": "¿Existe un tope máximo de sueldo para calcular el aporte del 13%?",
+        "opciones": [
+          "Sí, 5 sueldos mínimos",
+          "Sí, 10 UIT",
+          "No, se calcula sobre el total del sueldo"
+        ],
+        "respuesta": "No, se calcula sobre el total del sueldo"
+      }
+    ]
+  },
+  "Protección familiar": {
+    "color": "#FFD93D",
+    "preguntas": [
+      {
+        "pregunta": "¿Quiénes reciben la pensión de orfandad?",
+        "opciones": [
+          "Hijos menores de 18 o mayores estudiando ininterrumpidamente o hijos con discapacidad para el trabajo",
+          "Solo menores de 14 años",
+          "Hermanos del afiliado"
+        ],
+        "respuesta": "Hijos menores de 18 o mayores estudiando ininterrumpidamente o hijos con discapacidad para el trabajo"
+      },
+      {
+        "pregunta": "El cónyuge o conviviente puede solicitar pensión de viudez en la ONP",
+        "opciones": ["Verdadero", "Falso"],
+        "respuesta": "Verdadero"
+      },
+      {
+        "pregunta": "¿Qué pensión reciben los padres si el afiliado fallecido no deja cónyuge ni hijos?",
+        "opciones": [
+          "Pensión de ascendientes",
+          "Pensión de orfandad",
+          "Pensión de invalidez"
+        ],
+        "respuesta": "Pensión de ascendientes"
+      }
+    ]
+  },
+  "Afiliación al SNP": {
+    "color": "#8AC926",
+    "preguntas": [
+      {
+        "pregunta": "En tu primer trabajo, ¿quién decide si te afilias a la ONP o AFP?",
+        "opciones": [
+          "El empleador",
+          "El trabajador",
+          "El Ministerio de Trabajo"
+        ],
+        "respuesta": "El trabajador"
+      },
+      {
+        "pregunta": "Los trabajadores independientes no pueden afiliarse a la ONP",
+        "opciones": ["Verdadero", "Falso"],
+        "respuesta": "Falso"
+      },
+      {
+        "pregunta": "¿Puedes cambiarte de la ONP a una AFP?",
+        "opciones": [
+          "No, es de por vida",
+          "Sí, en cualquier momento a partir de la vigencia de la Ley N° 32123",
+          "Solo si tu empleador lo autoriza"
+        ],
+        "respuesta": "Sí, en cualquier momento a partir de la vigencia de la Ley N° 32123"
+      }
+    ]
+  },
+  "Riesgos de no aportar": {
+    "color": "#1982C4",
+    "preguntas": [
+      {
+        "pregunta": "¿Qué pasa si tienes un accidente grave y no has aportado a la ONP?",
+        "opciones": [
+          "El Estado te da un bono automático",
+          "No podrás acceder a una pensión de invalidez",
+          "Te embargan tus bienes"
+        ],
+        "respuesta": "No podrás acceder a una pensión de invalidez"
+      },
+      {
+        "pregunta": "Si no alcanzas los años de aporte mínimos a los 65 años, te quedas sin pensión",
+        "opciones": ["Verdadero", "Falso"],
+        "respuesta": "Verdadero"
+      },
+      {
+        "pregunta": "Si no logras jubilarte por falta de aportes, ¿qué otro beneficio importante pierdes en tu vejez?",
+        "opciones": [
+          "Tu derecho a votar",
+          "La cobertura de salud vitalicia en EsSalud",
+          "Tus propiedades inmobiliarias"
+        ],
+        "respuesta": "La cobertura de salud vitalicia en EsSalud"
+      }
+    ]
+  },
+  "Planificación del futuro": {
+    "color": "#6A4C93",
+    "preguntas": [
+      {
+        "pregunta": "¿Para qué sirve principalmente guardar tus boletas de pago antiguas?",
+        "opciones": [
+          "Para cobrar utilidades",
+          "Como prueba ante la ONP si faltan registrar tus aportes del periodo anterior al año 1999",
+          "Para pedir préstamos bancarios"
+        ],
+        "respuesta": "Como prueba ante la ONP si faltan registrar tus aportes del periodo anterior al año 1999"
+      },
+      {
+        "pregunta": "Debes revisar tu Estado de Cuenta para confirmar que tu jefe está pagando tus aportes",
+        "opciones": ["Verdadero", "Falso"],
+        "respuesta": "Verdadero"
+      },
+      {
+        "pregunta": "¿A partir de qué fecha se encuentra vigente el libre traslado entre ONP y AFP?",
+        "opciones": [
+          "A partir de junio 2027",
+          "A partir de setiembre 2026",
+          "No es posible el libre traslado"
+        ],
+        "respuesta": "A partir de setiembre 2026"
+      }
+    ]
+  },
+  "Beneficios del SNP": {
+    "color": "#F15BB5",
+    "preguntas": [
+      {
+        "pregunta": "Además de la pensión, ¿qué beneficio de salud recibe un jubilado de la ONP?",
+        "opciones": [
+          "Seguro de vida privado",
+          "Atención en MINSA",
+          "Cobertura en EsSalud"
+        ],
+        "respuesta": "Cobertura en EsSalud"
+      },
+      {
+        "pregunta": "La pensión de jubilación de la ONP es vitalicia",
+        "opciones": ["Verdadero", "Falso"],
+        "respuesta": "Verdadero"
+      },
+      {
+        "pregunta": "¿Los pensionistas de la ONP reciben algún pago adicional como gratificaciones?",
+        "opciones": [
+          "Sí, reciben una pensión extra en julio y otra en diciembre",
+          "No, solo reciben 12 pagos anuales",
+          "Solo reciben un bono en su cumpleaños"
+        ],
+        "respuesta": "Sí, reciben una pensión extra en julio y otra en diciembre"
+      }
+    ]
+  },
+  "Ahorro previsional": {
+    "color": "#00BBF9",
+    "preguntas": [
+      {
+        "pregunta": "¿Cómo funciona el fondo de la ONP?",
+        "opciones": [
+          "Con cuentas individuales de capitalización",
+          "Es un fondo común y de reparto solidario",
+          "Es un fondo exclusivo de inversión en bolsa"
+        ],
+        "respuesta": "Es un fondo común y de reparto solidario"
+      },
+      {
+        "pregunta": "En la ONP tienes una cuenta individual que genera ganancias mensuales a tu nombre",
+        "opciones": ["Verdadero", "Falso"],
+        "respuesta": "Falso"
+      },
+      {
+        "pregunta": "¿Qué entidad administra los fondos del Sistema Nacional de Pensiones?",
+        "opciones": [
+          "El Banco de la Nación",
+          "La SBS",
+          "La ONP (Oficina de Normalización Previsional)"
+        ],
+        "respuesta": "La ONP (Oficina de Normalización Previsional)"
+      }
+    ]
+  }
+}

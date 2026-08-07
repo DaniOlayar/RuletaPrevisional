@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruleta Cultural - ONP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- MARCADOR DE PUNTOS (Flotante en la esquina superior) -->
+    <div id="marcador-puntos" class="marcador-oculto">
+      👤 <span id="span-nombre-usuario"></span> | ⭐ Puntos:
+      <strong id="contador-puntos">0</strong>
+    </div>
+
+    <div class="contenedor-principal">
+      <h1 id="titulo-principal">Ruleta cultural</h1>
+
+      <!-- PANTALLA DE INICIO (Ingresar Nombre) -->
+      <div id="panel-inicio" class="panel">
+        <h2>¡Bienvenido!</h2>
+        <p>Ingresa tu nombre para comenzar a jugar</p>
+        <input
+          type="text"
+          id="input-nombre"
+          placeholder="Tu nombre o el de tu equipo"
+          autocomplete="off"
+        />
+        <button id="btn-comenzar" class="btn-accion">
+          Comenzar a jugar 🚀
+        </button>
+      </div>
+
+      <!-- ÁREA DE LA RULETA (Oculta al inicio) -->
+      <div id="seccion-juego" class="seccion-oculta">
+        <div class="ruleta-wrapper">
+          <div class="flecha"></div>
+          <div class="recorte-esquinas">
+            <div class="ruleta" id="ruleta"></div>
+          </div>
+          <button id="btn-girar">¡GIRAR!</button>
+        </div>
+      </div>
+
+      <!-- PANEL DE PREGUNTA -->
+      <div id="panel-pregunta" class="panel oculto">
+        <span id="categoria-badge"></span>
+        <h2 id="pregunta-texto"></h2>
+        <div id="opciones"></div>
+      </div>
+
+      <!-- PANEL DE RESULTADO -->
+      <div id="panel-resultado" class="panel oculto">
+        <div id="icono-resultado"></div>
+        <h2 id="texto-resultado"></h2>
+        <button id="btn-reintentar" class="btn-accion">
+          Girar de nuevo 🔄
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
