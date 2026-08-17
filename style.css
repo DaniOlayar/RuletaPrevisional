@@ -327,3 +327,7 @@ body {
 .marcador-oculto {
   display: none;
 }
+
+.main-logo {
+  width: 100%;
+}
