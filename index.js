@@ -22,6 +22,13 @@ const contenedorOpciones = document.getElementById("opciones");
 const iconoResultado = document.getElementById("icono-resultado");
 const textoResultado = document.getElementById("texto-resultado");
 const btnReintentar = document.getElementById("btn-reintentar");
+const modalVictoria = document.getElementById("modal-victoria");
+const modalNombreUsuario = document.getElementById("modal-nombre-usuario");
+const btnCerrarModal = document.getElementById("btn-cerrar-modal");
+
+btnCerrarModal.addEventListener("click", () => {
+  modalVictoria.classList.add("oculto");
+});
 
 // --- 1. CARGAR DATOS DESDE EL JSON ---
 async function cargarDatos() {
@@ -147,6 +154,12 @@ function verificarRespuesta(seleccion, correcta) {
     iconoResultado.textContent = "🎉";
     textoResultado.textContent = "¡Súper! +1 Punto.";
     textoResultado.style.color = "#6BCB77";
+
+    // --- NUEVO: mostrar popup cada 5 aciertos ---
+    if (puntajeActual % 5 === 0) {
+      modalNombreUsuario.textContent = spanNombreUsuario.textContent;
+      modalVictoria.classList.remove("oculto");
+    }
   } else {
     iconoResultado.textContent = "😅";
     textoResultado.textContent = "¡Casi! Era: " + correcta;

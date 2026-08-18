@@ -149,13 +149,13 @@
         "respuesta": "Verdadero"
       },
       {
-        "pregunta": "¿A partir de qué fecha se encuentra vigente el libre traslado entre ONP y AFP?",
+        "pregunta": "Según la ley N.° 32123 ¿Puedes trasñadarte entre sistemas de pensiones?",
         "opciones": [
-          "A partir de junio 2027",
-          "A partir de setiembre 2026",
-          "No es posible el libre traslado"
+          "No, nunca",
+          "Si, bajo las condiciones establecidas por la ley",
+          "solo después de los 65 años"
         ],
-        "respuesta": "A partir de setiembre 2026"
+        "respuesta": "Si, bajo las condiciones establecidas por la ley"
       }
     ]
   },

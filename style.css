@@ -331,3 +331,48 @@ body {
 .main-logo {
   width: 100%;
 }
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.modal-overlay.oculto {
+  display: none;
+}
+
+.modal-contenido {
+  background: white;
+  border-radius: 25px;
+  padding: 35px 25px;
+  text-align: center;
+  width: 100%;
+  max-width: 380px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+  animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+.modal-icono {
+  font-size: 60px;
+  margin-bottom: 10px;
+  animation: latir 1s infinite;
+}
+
+.modal-contenido h2 {
+  color: #2f3542;
+  margin: 0 0 10px 0;
+}
+
+.modal-contenido p {
+  color: #57606f;
+  margin: 0 0 20px 0;
+  font-size: 16px;
+}
